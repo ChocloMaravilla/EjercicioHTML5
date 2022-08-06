@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="img/">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h4><b>Validación de teléfono mediante a expresiones regulares:</b></h4>
+    </header>
+    <main>
+        <form>
+            <input type="text" name="mobile" class="form-control" maxlength="9" placeholder="34-XXX XXX XXX"
+                pattern="(6)\d{8}" required />
+            <input type="Submit" />
+        </form>
+    </main>
+    <footer><h6><u>Introduce un numero de telefono de 8 digitos que empiece por 6</u></h6></footer>
+</body>
+
+</html>

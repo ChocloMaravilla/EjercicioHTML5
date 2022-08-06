@@ -1,0 +1,25 @@
+input:valid {
+    color: navy
+  }
+  input:invalid {
+    color: red;
+  }
+numbers{
+   
+}
+form{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: gray;
+}
